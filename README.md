@@ -19,7 +19,7 @@ Write the C Program using Linux Process API - Sempahores
 Execute the C Program for the desired output. 
 
 # PROGRAM:
-
+```
 /*
  * sem-producer-consumer.c  - demonstrates a basic producer-consumer
  *                            implementation.
@@ -109,16 +109,19 @@ if(NUM_LOOPS>=10)    {
     return 0;
 }
 
-
+```
 
 
 ## OUTPUT
+```
 $ gcc -o semaphore.o semaphore.c
- $./semaphore.o
+$./semaphore.o
+```
 ![alt text](<WhatsApp Image 2024-04-22 at 05.20.47_7ae9cbee.jpg>)
 
-
+```
 $ ipcs
+```
 ![alt text](<WhatsApp Image 2024-04-22 at 05.20.47_bec4505e.jpg>)
 
 
